@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://soorajsunil1409.github.io/codechef-week-4/",
+  "homepage": "https://soorajsunil1409.github.io/Codechef-Week-4/",
   "scripts": {
     "predeploy" : "npm run build",
     "deploy" : "gh-pages -d dist",
