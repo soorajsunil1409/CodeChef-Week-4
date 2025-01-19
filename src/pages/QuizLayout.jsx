@@ -61,7 +61,7 @@ const QuizLayout = ({ setQn, qn = 1, selected = false }) => {
             <div id="question" className="h-[100vh] bg-[#EDE8E3] flex flex-col">
                 <Outlet />
             </div>
-            <div className="p-6 md:bg-white flex justify-center gap-[160px] w-[300vw] translate-x-[-100vw]">
+            <div className="p-6 md:bg-white flex justify-center gap-[160px] w-full">
                 <div className="md:flex hidden gap-6 justify-center items-center text-[#747475] p-6 font-semibold">
                     <div className="w-[243px] h-[15px] bg-[#EDE8E3] rounded-2xl">
                         <div style={{ width: `${percent * 100}%` }} className="h-full bg-[#31CD63] rounded-2xl transition-all ease-out duration-700"></div>

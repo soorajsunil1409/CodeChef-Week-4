@@ -10,6 +10,7 @@ const Results = () => {
             duration: 0.5
         });
     }, []);
+
     return (
         <div id="main" className="h-[100vh]">
             < Link to="/" className="absolute font-light md:top-10 md:right-20 top-9 right-5 h-10 w-10 bg-white rounded-full cursor-pointer text-center text-3xl" >×</Link >
@@ -19,11 +20,11 @@ const Results = () => {
                     <div className="md:text-[33px] text-[22px] font-semibold">Results</div>
                 </div>
                 <div className="flex flex-col gap-8 xl:text-[33px] lg:text-[30px] md:text-[25px] text-[22px] font-semibold text-center">
-                    <div>You are blah blah blah and you do blah blah, you wish you could blah blah.</div>
+                    <div>I didnt have time to implement gen AI</div>
                     <div>Do blah blah and everything will be amazing and beautiful and perfect and pay me $12031231 for doing this service for you, and I’ll give you 3 more predictions.</div>
                 </div>
             </div>
-            <div className="p-6 md:h-[113px] md:bg-white flex justify-center gap-[160px] text-center w-[300vw] translate-x-[-100vw]">
+            <div className="p-6 md:h-[113px] md:bg-white flex justify-center gap-[160px] text-center w-full">
                 <Link to="/" className="bg-[#31CD63] md:w-max sm:w-[60%] md:mb-0 mb-10 w-full px-[140px] py-5 rounded-xl text-white">OKAY</Link>
             </div>
         </div >
