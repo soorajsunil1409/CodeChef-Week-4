@@ -13,7 +13,7 @@ const Mcq = ({ setSel, qn, options }) => {
     }, [qn]);
 
     return (
-        <div className="flex flex-col gap-7 mt-10">
+        <div className="flex flex-col gap-7 mt-8">
             {options.map((option, index) => (
                 <div
                     key={index}
